@@ -11,3 +11,5 @@ or
 ```
 sudo php ore2.php
 ```
+
+then access http://localhost/index.html
