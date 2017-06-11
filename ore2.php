@@ -2,7 +2,7 @@
 $sock = @socket_create_listen(80);
 if(!$sock){die("port in use\n");}
 
-$pids=[];
+$pids=array();
 for($i=0; $i < 10 ; $i++){
     $pid = pcntl_fork();
     if($pid){
